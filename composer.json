@@ -1,0 +1,20 @@
+{
+    "name": "viscaweb/mapache-mark",
+    "authors": [
+        {
+            "name": "Andreu Boixadera",
+            "email": "andreu@viscaweb.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4" : {"Mapache\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Unit\\": "test"
+        }
+    }
+}
