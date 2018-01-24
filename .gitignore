@@ -9,6 +9,8 @@ vendor/*
 
 # IDE
 .idea
+.idea/*
 
 # Mergetool linux
 *.orig
+
